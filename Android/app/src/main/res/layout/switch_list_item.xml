@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/bulb"
+            android:tint="@color/graph1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/actuator_name"
+            android:paddingTop="7dp"
+            android:layout_width="wrap_content"
+            android:textSize="17dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@color/textPrimary"
+            android:layout_height="wrap_content" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_gravity="right"
+            android:paddingTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textOn="ON"
+            android:textOff="OFF"
+            />
+    </LinearLayout>
+
+
+
+
